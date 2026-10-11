@@ -1,16 +1,16 @@
-import { Encryption } from "@/components/main/encryption";
+import { Certificates } from "@/components/main/certificates";
+import { Contact } from "@/components/main/contact";
 import { Hero } from "@/components/main/hero";
 import { Projects } from "@/components/main/projects";
-import { Skills } from "@/components/main/skills";
 
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col gap-20">
+      <div className="flex flex-col gap-2 md:gap-4">
         <Hero />
-        <Skills />
-        <Encryption />
+        <Certificates />
         <Projects />
+        <Contact />
       </div>
     </main>
   );
