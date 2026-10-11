@@ -47,13 +47,14 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
-    |-- apple-icon.png
-    |-- favicon.ico
+    |-- apple-icon1.png
+    |-- favicon1.ico
     |-- globals.css
     |-- icon1.png
     |-- icon2.png
     |-- layout.tsx
     |-- page.tsx
+    |-- xTERD.png
   |- components/
     |-- main/
     |-- sub/
@@ -70,6 +71,7 @@ space-portfolio/
   |- eslint.config.mjs
   |- netlify.toml
   |- next.config.js
+  |- package-lock.json
   |- package.json
   |- pnpm-lock.yaml
   |- pnpm-workspace.yaml
@@ -140,11 +142,13 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.2.0
 - [maath](https://www.npmjs.com/package/maath): ^0.10.8
 - [next](https://www.npmjs.com/package/next): 16.3.5
+- [pdfjs-dist](https://www.npmjs.com/package/pdfjs-dist): ^6.3.289
 - [postcss](https://www.npmjs.com/package/postcss): ^8
 - [react](https://www.npmjs.com/package/react): 19.2.8
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
 - [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^11.0.1
+- [react-pdf](https://www.npmjs.com/package/react-pdf): ^11.0.0
 - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.6.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
 - [three](https://www.npmjs.com/package/three): ^0.186.0
