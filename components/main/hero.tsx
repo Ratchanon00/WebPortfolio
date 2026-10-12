@@ -7,6 +7,8 @@ export const Hero = () => {
         autoPlay
         muted
         loop
+        playsInline
+        preload="metadata"
         style={{
           maskImage: "linear-gradient(to top, black 0%, black 88%, transparent 100%)",
           WebkitMaskImage:

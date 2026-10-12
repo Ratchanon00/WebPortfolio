@@ -96,19 +96,19 @@ export const Contact = () => {
                 transition={{ delay: index * 0.08, duration: 0.35 }}
                 className="group flex w-full items-center justify-between gap-4 rounded-xl border border-[#7042f88b] bg-[#0a0a2e]/80 px-4 py-4 transition-all duration-300 hover:-translate-y-0.5 hover:border-purple-500/70 hover:shadow-[0_0_30px_rgba(112,66,248,0.15)] md:px-5"
               >
-                <div className="flex items-center gap-4">
-                  <div className={`flex h-12 w-12 items-center justify-center rounded-xl border border-white/10 ${iconBg}`}>
+                <div className="flex min-w-0 flex-1 items-center gap-4">
+                  <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-white/10 ${iconBg}`}>
                     <Icon className="h-6 w-6 text-white" />
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#c2d6ff] md:text-sm">
                       {label}
                     </p>
-                    <p className="mt-1 text-sm font-semibold text-white md:text-lg">{value}</p>
+                    <p className="mt-1 break-words text-xs font-semibold text-white sm:text-sm md:text-lg">{value}</p>
                   </div>
                 </div>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-colors group-hover:bg-white/10 md:h-11 md:w-11">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-colors group-hover:bg-white/10 md:h-11 md:w-11">
                   <ArrowRightIcon className="h-4 w-4 md:h-5 md:w-5" />
                 </div>
               </motion.a>
