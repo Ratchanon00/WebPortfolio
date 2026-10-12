@@ -24,6 +24,7 @@ jobs:
           node-version: 'lts/*'
 
       - name: Update README.md
+        if: ${{ hashFiles('README.md') != '' }}
         run: |
           node -e "
           const fs = require('fs');
@@ -125,6 +126,7 @@ jobs:
           "
 
       - name: Commit and Push Changes
+        if: ${{ hashFiles('README.md') != '' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
