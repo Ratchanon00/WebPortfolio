@@ -8,6 +8,15 @@ export const PROJECTS = [
     link: "https://github.com/Ratchanon00/RoboDK",
   },
   {
+    title: "ACE Software for Industrial Robots",
+    description: [
+      "ใช้ในการกำหนดตำแหน่งและเส้นทางการเคลื่อนที่",
+      "ทดสอบการทำงานก่อนใช้งานจริง",
+      "จำลองการเคลื่อนที่ของหุ่นยนต์",
+    ],
+    link: "https://github.com/Ratchanon00/ACE",
+  },
+  {
     title: "Object Detection",
     description: [
       "ใช้สถิติและเปรียบเทียบภาพ (Image Processing)",

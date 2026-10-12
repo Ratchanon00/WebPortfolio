@@ -104,7 +104,7 @@ export const Contact = () => {
                     <p className="text-xs font-medium uppercase tracking-[0.2em] text-[#c2d6ff] md:text-sm">
                       {label}
                     </p>
-                    <p className="mt-1 text-base font-semibold text-white md:text-xl">{value}</p>
+                    <p className="mt-1 text-sm font-semibold text-white md:text-lg">{value}</p>
                   </div>
                 </div>
 
@@ -118,8 +118,9 @@ export const Contact = () => {
 
         <div className="mt-6 flex justify-center">
           <a
-            href="/resume.txt"
-            download
+            href="/CV.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500 px-8 py-4 text-lg font-bold text-white shadow-[0_0_30px_rgba(59,130,246,0.4)] transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]"
           >
             <ArrowDownTrayIcon className="h-6 w-6" />
