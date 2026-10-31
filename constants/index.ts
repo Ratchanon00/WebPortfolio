@@ -30,16 +30,6 @@ export const PROJECTS = [
       "https://drive.google.com/drive/folders/19u0YAhAg3NA6U0RSNJhfNL8-zjyQs8tc",
   },
   {
-    title: "PCB Defect Vision Al",
-    description: [
-      "ตรวจสอบรูบนบอร์ด PCB ด้วย AI",
-      "รู้ว่ามีรูอยู่ที่พิกัดตำแหน่งไหน",
-    ],
-    link: "https://github.com/Ratchanon00/PCB_Defect_Vision_Al",
-    demoLink:
-      "https://drive.google.com/drive/folders/12UhEOzrzq8GE0DBSOGjeobeQB7s21O1P?usp=sharing",
-  },
-  {
     title: "SolidWorks Design",
     description: [
       "นำชิ้นส่วนที่ออกแบบไปใช้งาน",
@@ -59,6 +49,26 @@ export const PROJECTS = [
     link: "https://github.com/Ratchanon00/JavaApp",
     demoLink:
       "https://drive.google.com/drive/folders/1yPTgtkgMRojqoajJPfNFR7vwQkTFvpuJ?usp=sharing",
+  },
+  {
+    title: "PCB Defect Vision Al",
+    description: [
+      "ตรวจสอบรูบนบอร์ด PCB ด้วย AI",
+      "รู้ว่ามีรูอยู่ที่พิกัดตำแหน่งไหน",
+    ],
+    link: "https://github.com/Ratchanon00/PCB_Defect_Vision_Al",
+    demoLink:
+      "https://drive.google.com/drive/folders/12UhEOzrzq8GE0DBSOGjeobeQB7s21O1P?usp=sharing",
+  },
+  {
+    title: "PCB Defect Realtime",
+    description: [
+      "ตรวจสอบรูบนบอร์ด PCB ของจริงด้วย AI โดยใช้กล้อง",
+      "พัฒนาต่อจาก PCB Defect Vision Al",
+    ],
+    link: "https://github.com/Ratchanon00/PCB_Defect_Realtime",
+    demoLink:
+      "https://drive.google.com/drive/folders/1z8dINq9ZjSOPHCgxDmK9XfvxUWVbk5dt?usp=drive_link",
   },
 ] as const;
 
