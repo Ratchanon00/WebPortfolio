@@ -1,15 +1,5 @@
 export const PROJECTS = [
   {
-    title: "RoboDK Robot Simulator",
-    description: [
-      "โมเดล 3D ของแขนหุ่นยนต์",
-      "จำลองการเคลื่อนที่ของแขนหุ่นยนต์",
-    ],
-    link: "https://github.com/Ratchanon00/RoboDK",
-    demoLink:
-      "https://drive.google.com/drive/folders/1v-9-md4wc0a_82XtpFm4Iko2ShbWGBX9?usp=drive_link",
-  },
-  {
     title: "ACE Software for Industrial Robots",
     description: [
       "ใช้ในการกำหนดตำแหน่งและเส้นทางการเคลื่อนที่",
@@ -19,15 +9,14 @@ export const PROJECTS = [
     link: "https://github.com/Ratchanon00/ACE",
   },
   {
-    title: "Object Detection",
+    title: "Android Studio - SafeGuard",
     description: [
-      "ใช้สถิติและเปรียบเทียบภาพ (Image Processing)",
-      "ใช้การกรองสี (Color Segmentation) ตั้งค่าสีในระบบ HSV",
-      "ส่งตำแหน่งให้ทำงานร่วมกับแขนหุ่นยนต์หยิบกล่อง",
+      "ระบุตำแหน่งของยามในมหาวิทยาลัย",
+      "เพื่อที่จะขอความช่วยเหลือได้รวดเร็ว",
     ],
-    link: "https://github.com/Ratchanon00/Object_Detection",
+    link: "https://github.com/Ratchanon00/JavaApp",
     demoLink:
-      "https://drive.google.com/drive/folders/19u0YAhAg3NA6U0RSNJhfNL8-zjyQs8tc",
+      "https://drive.google.com/drive/folders/1yPTgtkgMRojqoajJPfNFR7vwQkTFvpuJ?usp=sharing",
   },
   {
     title: "SolidWorks Design",
@@ -41,14 +30,15 @@ export const PROJECTS = [
       "https://drive.google.com/drive/folders/1HwJh-EImwoZqknTsA8hKiyzbsrRV3fnm?usp=sharing",
   },
   {
-    title: "Android Studio - SafeGuard",
+    title: "Object Detection",
     description: [
-      "ระบุตำแหน่งของยามในมหาวิทยาลัย",
-      "เพื่อที่จะขอความช่วยเหลือได้รวดเร็ว",
+      "ใช้สถิติและเปรียบเทียบภาพ (Image Processing)",
+      "ใช้การกรองสี (Color Segmentation) ตั้งค่าสีในระบบ HSV",
+      "ส่งตำแหน่งให้ทำงานร่วมกับแขนหุ่นยนต์หยิบกล่อง",
     ],
-    link: "https://github.com/Ratchanon00/JavaApp",
+    link: "https://github.com/Ratchanon00/Object_Detection",
     demoLink:
-      "https://drive.google.com/drive/folders/1yPTgtkgMRojqoajJPfNFR7vwQkTFvpuJ?usp=sharing",
+      "https://drive.google.com/drive/folders/19u0YAhAg3NA6U0RSNJhfNL8-zjyQs8tc",
   },
   {
     title: "PCB Defect Vision Al",
@@ -69,6 +59,16 @@ export const PROJECTS = [
     link: "https://github.com/Ratchanon00/PCB_Defect_Realtime",
     demoLink:
       "https://drive.google.com/drive/folders/1z8dINq9ZjSOPHCgxDmK9XfvxUWVbk5dt?usp=drive_link",
+  },
+  {
+    title: "RoboDK Robot Simulator",
+    description: [
+      "โมเดล 3D ของแขนหุ่นยนต์",
+      "จำลองการเคลื่อนที่ของแขนหุ่นยนต์",
+    ],
+    link: "https://github.com/Ratchanon00/RoboDK",
+    demoLink:
+      "https://drive.google.com/drive/folders/1v-9-md4wc0a_82XtpFm4Iko2ShbWGBX9?usp=drive_link",
   },
 ] as const;
 
