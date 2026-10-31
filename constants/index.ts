@@ -6,6 +6,8 @@ export const PROJECTS = [
       "จำลองการเคลื่อนที่ของแขนหุ่นยนต์",
     ],
     link: "https://github.com/Ratchanon00/RoboDK",
+    demoLink:
+      "https://drive.google.com/drive/folders/1v-9-md4wc0a_82XtpFm4Iko2ShbWGBX9?usp=drive_link",
   },
   {
     title: "ACE Software for Industrial Robots",
